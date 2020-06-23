@@ -104,7 +104,7 @@ describe('LinkedList', () => {
     list.delete(20);
     expect(list.count()).toBe(1);
   });
-  xtest('deletes only the first occurence', () => {
+  xtest('deletes only the first occurrence', () => {
     const list = new LinkedList();
     list.push(5);
     list.push(10);
